@@ -1,0 +1,46 @@
+.link-button {
+  background: #252b36;
+  border-radius: 15px;
+  color: white;
+  font-family: "Creepster", cursive;
+  padding: 15px;
+  font-size: 22px;
+  border: none;
+}
+
+.link-button:hover {
+  background-color: #252e6e;
+}
+
+.container-personagem {
+  padding: 50px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background: #0b101a;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.container-personagem h1 {
+  font-size: 64px;
+}
+
+.container-personagem p {
+  font-size: 22px;
+}
+
+.container-personagem img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 550px) {
+  .container-personagem h1 {
+    font-size: 40px;
+  }
+  .container-personagem p {
+    font-size: 18px;
+  }
+}
