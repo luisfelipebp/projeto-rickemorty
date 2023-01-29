@@ -48,13 +48,13 @@ function Home() {
       <div className="list-character">
         {dados &&
           search(dados.results).map((item, index) => (
-            <div key={item.id}>
-              <Link
-                to={`personagem/${item.name.replace(" ", "&").toLowerCase()}`}
-              >
+            <Link
+              to={`personagem/${item.name.replace(" ", "&").toLowerCase()}`}
+            >
+              <div key={item.id} className="button-character">
                 <h2 className="card-name">{item.name}</h2>
-              </Link>
-            </div>
+              </div>
+            </Link>
           ))}
       </div>
     </div>

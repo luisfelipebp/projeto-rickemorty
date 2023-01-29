@@ -46,7 +46,7 @@
   text-align: center;
 }
 
-.list-character div {
+.button-character {
   display: inline-block;
   padding: 10px;
   background-color: #252b36;
@@ -54,11 +54,11 @@
   border-radius: 15px;
 }
 
-.list-character div:hover {
+.button-character:hover {
   background-color: #252e6e;
 }
 
-.list-character div a {
+.button-character h2 {
   color: white;
   text-decoration: none;
 }
